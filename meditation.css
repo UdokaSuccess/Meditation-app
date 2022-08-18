@@ -1,0 +1,358 @@
+body{
+	margin: 0px;
+}
+
+/*----------------------------------header section---------------------------------*/
+.header{
+	position: relative;
+	height: 115vh;
+	margin: 0px;
+    width: 100%;
+    justify-content: center;
+	background-image: url("man-13.jpg");
+	background-attachment: fixed; 
+	background-size:cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	align-items: center;
+	text-align: center;
+}
+.heading {
+	position: absolute;
+	top: 40%;
+	left: 42%;
+}
+.col h1{
+	font-size: 3em;
+	color: whitesmoke
+}
+.col p{
+	font-size: 1.3em;
+	font-weight: 500px;/*
+	font-family: Pacifico;
+*/	color: green;
+	padding-bottom: 0.5rem;
+	padding-top: 0.3rem
+}
+.col .btn{
+	background-color: #9933cc;
+	color: white;
+	font-size: 1.2rem;
+	padding: 0.4em 3em;
+	border-radius: 10%
+}
+
+.btn{
+background-color: #880ED4;
+padding: 1rem;
+border-radius: 10%;
+font-size: 2rem;
+letter-spacing: 0.2em
+}
+.collapse{
+	text-align: right;
+	margin-left: 50%
+}
+.navbar-nav .nav-item {
+	margin-left: 1.2rem
+}
+/*---------------------------------Explore section-----------------------------------------------------*/
+
+  .container-2{
+   display: grid;
+   justify-content: center;
+   background-color: #000;
+   text-align: center;
+   height: ;
+   padding: 3rem 0 ;
+   margin: 0px;
+}
+.centered-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+    line-height: 0.2rem
+}
+
+.breathe {
+	position: relative;
+	display: block;
+	text-align: center;
+
+}
+.row-1, .row-2{
+	display: flex;
+	flex-direction: row;
+}
+
+ .img{
+	width: 60%;
+	border: 1px solid #000;
+	border-radius: 20%;
+	margin: 2rem
+}
+h2{
+	color: white;
+	font-size: 2rem;
+}
+.btn-G{
+	padding: 0.6rem 2rem;
+	background-color: #880ED4;
+	border-radius: 10%;
+	font-size: 1.2rem;
+	color: white;
+
+}
+
+/* -------------------------------------breathing section-----------------------------------------------------------*/
+
+#outer-circle{
+	position: relative;
+	border: 3px solid black;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	justify-content: center;
+	margin: 3rem auto;
+}
+#inner-circle{
+	position: absolute;
+	border-radius: 50%;
+	width: 280px;
+	height: 280px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}
+#inner-circle2{
+	position: absolute;
+	border-radius: 50%;
+	width: 260px;
+	height: 260px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}#inner-circle3{
+	position: absolute;
+	border-radius: 50%;
+	width: 240px;
+	height: 240px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}#inner-circle4{
+	position: absolute;
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}#inner-circle5{
+	position: absolute;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}
+#inner-circle6{
+	position: absolute;
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}#inner-circle7{
+	position: absolute;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 0.5rem 
+}#inner-circle8{
+	position: absolute;
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	border: 3px solid black;
+	background-color: black;
+	text-align: center;
+	margin: 0.5rem;
+	transform: scale(); 
+}
+.grow{
+	transform: scale(2.3); 
+	transition: 7s;
+}
+.shrink{
+	transform: scale(1.0, 1);
+	transition: 8s
+}
+.container-3{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(breathe4.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding: 2rem 0;
+	text-align: center;
+	background-position: center;
+}
+.text{
+	display: block;
+	text-align: center;
+	font-size: 1.5rem
+}
+.h1{
+	font-size: 1.8em;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 1.8rem;
+	margin: 0px;
+}
+.btn, #btn-start{
+    background-color: #880EF4;
+    padding:  0.5rem 1rem;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+
+}
+#btn-b{
+	color: #880EF4;
+	background-color: #000;
+	border: 1px solid grey;
+	font-size: 1.2rem;
+	padding:  0.5rem;
+	border-radius: 10%;
+}
+ p{
+	color: white;
+	font-weight: 800px;
+	line-height: 0.2rem;
+	letter-spacing: 0.2rem
+}
+#breath{
+	color:  #880EF4
+}
+/*-------------------------------------------------------MEDIA QUERY FOR MOBILE--------------------------------------------------------------------------*/
+@media  only screen  and (max-width: 600px){
+	.header{
+		height: 100vh;
+		background-image: url(man-14.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	.heading{
+		top: 50%;
+		left: 35%; 
+	}
+	.col h1{
+     font-size: 1.5em;
+     font-weight: 800px;
+	}
+	.col p{
+		letter-spacing: normal;
+		color: green;
+	}
+	.col .btn{
+		padding: 0.3rem 1rem
+	}
+	.collapse{
+		text-align: center;
+		margin-left: 0px;
+		padding: 0.5rem 0;
+	}
+/*----------------------------------------------EXPLORE  SECTION--------------------------------------------------------------------*/
+    h2{ 
+   	margin: 1rem;
+   	font-size: 1rem
+   }
+  .img{
+   width: 70%;
+   }
+   .centered-text{
+   	font-size: 1rem; 
+   	color: #fff;
+   }
+   .btn-G{
+   	padding: 0.3rem 2rem;
+   }
+   .container-2{
+   	height: 100vh;
+   	padding: 1rem 0;
+   }
+
+  /*------------------------------------------------------------------Breathe-------------------------------------------------------*/
+ .container-3{
+	margin: auto; 
+	height: 100vh
+
+}
+.h1{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+p{
+	font-size: 1rem;
+	font-weight: 400px
+}
+#outer-circle{
+margin: 6rem auto
+}
+
+.grow{ 
+	transition: 4.5s;
+}
+.shrink{
+	transition: 4.5s
+}
+
+#breatheP{
+	font-size: 1.4rem
+}
+.breatheBtn{
+	margin-top: 1rem
+}
+}
+/*-----------------------------------MEDIA QUERY FOR TABLET SIZE--------------------------------------------------*/
+
+@media  only screen  and (max-width: 968px){
+	.text{
+		margin-top: 0;
+		font-size: 1.3rem
+	}
+	.h1{
+		font-size: 1.7rem;
+	}
+	.container-3{
+		padding-bottom:  3rem;
+		padding-top: 2rem
+	}
+	h2{
+		font-size: 1.5rem
+	}
+	.heading{
+		top: 50%;
+		left: 30%
+	}
+	.col h1{
+        font-size: 1.8rem;
+	}
+	.col p{
+		font-size: 1.2rem
+	}
+}
+
+
+
+
