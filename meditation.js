@@ -53,7 +53,7 @@ const stop = () => {
 const expand = () => {
 	grow();
    growInterval = setInterval(grow, 17000);
-   finalTime =setTimeout(stop,  34000);
+   finalTime =setTimeout(stop,  68000);
     button.disabled = true;
     button.removeEventListener('click', expand)
     button.addEventListener('click', stop)
